@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unit Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Unit Converter</h1>
+		<label for="distance">Select conversion type:</label>
+		<select id="distance">
+			<option value="km">Kilometers to Miles</option>
+			<option value="mi">Miles to Kilometers</option>
+		</select>
+		<input type="number" id="value" placeholder="Enter value to convert">
+		<button onclick="convert()">Convert</button>
+		<div id="result"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
